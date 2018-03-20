@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		83986C5220617EF00058879E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83986C5120617EF00058879E /* AppDelegate.swift */; };
-		83986C5420617EF00058879E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83986C5320617EF00058879E /* ViewController.swift */; };
 		83986C5720617EF00058879E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83986C5520617EF00058879E /* Main.storyboard */; };
 		83986C5A20617EF00058879E /* FieldReportTableView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83986C5820617EF00058879E /* FieldReportTableView.xcdatamodeld */; };
 		83986C5C20617EF00058879E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83986C5B20617EF00058879E /* Assets.xcassets */; };
 		83986C5F20617EF00058879E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83986C5D20617EF00058879E /* LaunchScreen.storyboard */; };
+		EFEE5AD9206181DB00B53563 /* ReportTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEE5AD8206181DB00B53563 /* ReportTableViewController.swift */; };
+		EFEE5ADB2061825700B53563 /* FieldReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEE5ADA2061825700B53563 /* FieldReport.swift */; };
+		EFEE5ADD206182A200B53563 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEE5ADC206182A200B53563 /* DetailViewController.swift */; };
+		EFEE5ADF206185F400B53563 /* ReportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEE5ADE206185F400B53563 /* ReportTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		83986C4E20617EF00058879E /* FieldReportTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FieldReportTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83986C5120617EF00058879E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		83986C5320617EF00058879E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		83986C5620617EF00058879E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83986C5920617EF00058879E /* FieldReportTableView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FieldReportTableView.xcdatamodel; sourceTree = "<group>"; };
 		83986C5B20617EF00058879E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83986C5E20617EF00058879E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83986C6020617EF00058879E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFEE5AD8206181DB00B53563 /* ReportTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportTableViewController.swift; sourceTree = "<group>"; };
+		EFEE5ADA2061825700B53563 /* FieldReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldReport.swift; sourceTree = "<group>"; };
+		EFEE5ADC206182A200B53563 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EFEE5ADE206185F400B53563 /* ReportTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +62,12 @@
 		83986C5020617EF00058879E /* FieldReportTableView */ = {
 			isa = PBXGroup;
 			children = (
+				EFEE5AD8206181DB00B53563 /* ReportTableViewController.swift */,
+				EFEE5ADE206185F400B53563 /* ReportTableViewCell.swift */,
 				83986C5120617EF00058879E /* AppDelegate.swift */,
-				83986C5320617EF00058879E /* ViewController.swift */,
 				83986C5520617EF00058879E /* Main.storyboard */,
+				EFEE5ADA2061825700B53563 /* FieldReport.swift */,
+				EFEE5ADC206182A200B53563 /* DetailViewController.swift */,
 				83986C5B20617EF00058879E /* Assets.xcassets */,
 				83986C5D20617EF00058879E /* LaunchScreen.storyboard */,
 				83986C6020617EF00058879E /* Info.plist */,
@@ -139,8 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83986C5420617EF00058879E /* ViewController.swift in Sources */,
+				EFEE5ADB2061825700B53563 /* FieldReport.swift in Sources */,
 				83986C5A20617EF00058879E /* FieldReportTableView.xcdatamodeld in Sources */,
+				EFEE5ADD206182A200B53563 /* DetailViewController.swift in Sources */,
+				EFEE5ADF206185F400B53563 /* ReportTableViewCell.swift in Sources */,
+				EFEE5AD9206181DB00B53563 /* ReportTableViewController.swift in Sources */,
 				83986C5220617EF00058879E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
